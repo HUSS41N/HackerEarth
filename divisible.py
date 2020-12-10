@@ -28,7 +28,9 @@ def solve (A):
         print('OUI')
     else:
         print('NON')
-N = int(input())
-A = list(map(int, input().split()))
+if __name__ == '__main__':
 
-solve(A)
+	N = int(input())
+	A = list(map(int, input().split()))
+
+	solve(A)
